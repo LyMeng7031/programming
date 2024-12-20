@@ -3,16 +3,24 @@
 
 // Task 1: Comment Your JavaScript Code
 // Write a single-line comment below this line:
+function calculateTotal(price, quantity) {
+  return price * quantity;
+}
 
+let totalPrice = calculateTotal(25, 5);
+console.log(totalPrice); // Output: 125
 // Task 2: Declare JavaScript Variables
 // Declare a variable named `myName`:
-
+var myName;
 // Task 3: Storing Values with the Assignment Operator
 // Assign the value "JavaScript" to a variable named `myLanguage`:
-
+let prices = [25, 30, 80, 90, 100];
+prices.filter((price) => price < 50);
+// returns [25, 30]
 // Task 4: Assigning the Value of One Variable to Another
 // Declare a variable named `a` with the value 5, and another variable `b`. Assign `a` to `b`:
-
+a = b;
+a = 5;
 // Task 5: Initializing Variables with the Assignment Operator
 // Declare and initialize a variable named `myAge` with the value 25:
 
